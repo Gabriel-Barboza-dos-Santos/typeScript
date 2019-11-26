@@ -21,8 +21,8 @@ namespace empresa{
             this._credito = credito;
         }
 
-                public getBanco(){
-            this._banco;
+        public getBanco(){
+            return this._banco;
         }
 
         public setBanco(banco:Banco){

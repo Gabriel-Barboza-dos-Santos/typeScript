@@ -13,7 +13,7 @@ namespace empresa{
             this._nome = nome;
         }
 
-        public getCodBanco(){
+        public getCodBanco(): number{
             return this._codBanco;
         }
 
